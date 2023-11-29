@@ -22,6 +22,12 @@ max-width: inherit;
 width: inherit;
 z-index: 5;
 }
+.header_icon{
+    display: none;
+}
+.header_icon1{
+    display: none;
+}
 
 .header_nav{
     display: flex;
