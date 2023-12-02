@@ -299,7 +299,6 @@ column-gap: 16px;
     align-items: center;
     gap: 16px;
     justify-content:stretch ;
-    font-size: ;
 }
 .footer_img:hover{
     background-color: #EA904F;
@@ -456,12 +455,6 @@ margin-top: 16px;
     border: none;
 
 }
-.number_div{
-    
-    
- 
-
-}
 /* contact html  */
 .contact_section1{
     background-image: url(../image/Rectangle\ 108.png);
@@ -544,6 +537,7 @@ padding: 120px 324px;
 background: #EA904F;
 display: flex;
 flex-direction: column;
+gap: 40px;
 }
 .contact_section2_h{
     color: #FFF;
