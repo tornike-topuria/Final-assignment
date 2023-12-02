@@ -133,7 +133,6 @@ gap: 24px;
     display: inline-flex;
     padding: 8px 30px;
     justify-content: center;
-    /* align-items: center; */
     border: none;
     border-radius: 8px;
     background: #FFF;
@@ -292,15 +291,20 @@ column-gap: 16px;
 }
 .logo_div{
     margin-top: 32px;
-    gap: 24px;
+    column-gap: 24px;
 }
-.location_ul{
+
+.footer_icon_figure{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 19px;
+    align-items: center;
+    gap: 16px;
+    justify-content:stretch ;
+    font-size: ;
 }
-.footer_ul_li{
+.footer_img:hover{
+    background-color: #EA904F;
+}
+.footer_h5{
     color: #FFF;
     font-family: Rubik;
     font-size: 16px;
@@ -308,6 +312,8 @@ column-gap: 16px;
     font-weight: 300;
     line-height: 24px;  
 }
+
+
 /* about html  */
 /* section 1 */
 .about_section1{
