@@ -2,7 +2,6 @@
     max-width: 1440px;
     width: 100%;
     margin: auto;
-    border: 5px solid red;
 }
 /* header  */
 header{
@@ -63,7 +62,7 @@ line-height: normal;
 .header_div{
     display: flex;
     align-items: center;
-    column-gap: 16px;
+    gap: 16px;
 }
 .header_button{
     border: none;
@@ -77,6 +76,7 @@ font-size: 16px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
+
 }
 .button_a:hover{
      color: chartreuse;
@@ -385,6 +385,7 @@ column-gap: 16px;
     justify-content: center;
     flex-direction: column;
     row-gap: 47px;
+    background-position: center;
 
 }
 .about_section1_h{
@@ -448,7 +449,11 @@ line-height: 26px;
     
 }
 article{
-    display: flex;
+    width: 100%;
+    padding: 120px;
+    background: #EA904F;
+    gap: 24px;
+    display: none;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -463,6 +468,7 @@ article{
 .about_section2_divsection1{
     display: flex;
     column-gap: 24px;
+
 }
 .about_section2_div:hover{
     box-shadow: 7px 7px 7px blueviolet;
@@ -659,11 +665,16 @@ font-weight: 700;
 line-height: 48px;
 display: flex;
 justify-content: center;
+animation-name: colorBg;
+Animation-duration:4s;
+transition-timing-function: ease-in;
+animation-iteration-count: infinite;
 }
 .main_contact_section2_div{
     display: flex;
     column-gap: 94px;
 }
+
 .contact_section2_icon_div{
 display: flex;
 flex-direction: column;
@@ -675,6 +686,10 @@ gap: 72px ;
     align-items: center;
     column-gap: 14px;
     
+}
+.contact_section_img:hover{
+    box-shadow: 6px 6px 6px yellowgreen;
+    border-radius: 5px;
 }
 h6{
     color: #FFF;
